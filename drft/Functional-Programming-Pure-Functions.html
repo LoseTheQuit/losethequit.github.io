@@ -10,6 +10,8 @@
 
     <!--Description-->
     
+        <meta name="description" content="What is a Pure Function?Pure Functions are functions that do not have side effects we pass in data. we get data, easier to reason about because they d">
+    
 
     <!--Author-->
     
@@ -17,6 +19,8 @@
     
 
     <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Functional Programming - Pure Functions"/>
     
 
     <!--Open Graph Site Name-->
@@ -29,7 +33,7 @@
 
     <!-- Title -->
     
-    <title>Archiv - werkspayce</title>
+    <title>Functional Programming - Pure Functions - werkspayce</title>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/sass/main.css">
@@ -106,23 +110,33 @@
                 <!-- Main Content -->
                 
 
-<section class="archives">
+    <h1>Functional Programming - Pure Functions</h1>
+
+
+
+<!-- Gallery -->
+
+
+<!-- Content -->
+<h2 id="What-is-a-Pure-Function"><a href="#What-is-a-Pure-Function" class="headerlink" title="What is a Pure Function?"></a>What is a Pure Function?</h2><p>Pure Functions are functions that do not have side effects we pass in data. we get data, easier to reason about because they don’t cause<br>unintended side effects. They are easier to test and asset on the thing taht come back, they donb’t rely on external variables.<br>A program has to do something, it can’t just run. It has to produce a value,</p>
+<p>Calling this function will acjieve more than producing a return valye. anything that happens that isn’t a return value is a side effect.<br>This function does only two things, it takes two parameters and adds them together. The most</p>
+<h6 id="the-lesser-of-two-evils"><a href="#the-lesser-of-two-evils" class="headerlink" title="the lesser of two evils"></a>the lesser of two evils</h6><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">let</span> add = (x, y) =&gt; x + y;</div></pre></td></tr></table></figure>
+<p> Filter<br> Slice<br> map<br> reduce<br> concat<br> zip<br> fork<br> flatten</p>
+<h5 id="Second-title"><a href="#Second-title" class="headerlink" title="Second title"></a>Second title</h5><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+
+
+<!-- Comments -->
+<div>
     
-    <ul class="archive-list">
-        
-            <li>
-    <a href="/CSS-Secrets-1/2017/04/14/">CSS Secrets #1</a>
-</li>
+    <hr />
+    <h3>Kommentare:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 
-        
-            <li>
-    <a href="/Top-25-JavaScript-Interview-Questions/2017/04/14/">Top 25 JavaScript Interview Questions</a>
-</li>
 
-        
-    </ul>
-</section><!-- end main -->
 
+</div>
 
 
 
@@ -212,7 +226,7 @@
         var dsq = document.createElement('script');
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
